@@ -6,7 +6,7 @@ export const paintCards = () => {
 };
 
 export const findElement = () => {
-    let getLi = document.querySelector('li')
+    const getLi = document.querySelector('li')
     while (getLi) {
 
         if (getLi.matches('.likedItem')) {
